@@ -145,9 +145,7 @@ function CheckWin()
 function Winner(){
     if(CheckWin()===true)
     {
-/*
         document.getElementsByClassName("gamecol")[0].innerHTML="";
-*/
         let header= document.createElement("h1");
         header.innerText="You won !";
         document.getElementsByClassName("gamecol")[0].appendChild(header);
